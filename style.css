@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Ops+One&family=Geologica:wght@300&family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Ops+One&family=Geologica:wght@300&family=Inter:wght@900&family=Montserrat:wght@300&display=swap');
+
+
+/* ===========================================================================================================================================================================*/
+/*   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE */
+/* ===========================================================================================================================================================================*/
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+
+
+/* ===========================================================================================================================================================================*/
+/*   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE */ 
+/* ===========================================================================================================================================================================*/
+hr{
+    border: 0.1px solid white;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+.section1{
+    display: flex;
+    padding: 2% 2%;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 50%;
+    color: white;
+    font-family: 'Black Ops One';    
+}
+
+#hr1{
+    display: none;
+}
+
+.social{
+    font-size: 20px;
+    color: white;
+}
+
+.social i{
+    margin:10px;
+}
+
+.social i:hover{
+    color: grey;
+}
+
+.section2{
+    padding: 2% 2%;
+    width: 50%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.outline_col1 p{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3{
+    padding: 2% 2%;
+    color: white;
+    display: flex;
+    width: 40%;
+}
+
+
+@media (max-width: 720px) {
+    .section1{
+      display: block;
+    }
+
+    .logo{
+        padding: 3% 3%;
+    }
+    .social{
+        padding: 3% 3%;
+    }
+    #hr1{
+        display: block;
+    }
+
+  }
+
+@media (max-width:1000px) {
+    .section2{
+        width: 100%;
+        border: NONE;
+        justify-content:left;
+    }
+
+    .outline_col1{
+        padding-right: 100px;
+    }
+
+    .outline_col1 a:hover{
+        color: lightgrey;
+
+    }
+
+    .box{
+       display: block; 
+    }
+
+    .section3{
+        width: 50%;
+        padding: 5% 0 5% 0;
+    }
+
+}
