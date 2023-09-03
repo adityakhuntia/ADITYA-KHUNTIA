@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Ops+One&family=Geologica:wght@300&family=Inter:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Ops+One&family=Geologica:wght@300&family=Inter:wght@900&family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Ops+One&family=Geologica:wght@300&family=Inter:wght@900&family=Montserrat:wght@300&family=Rajdhani&display=swap');
 
 /* ===========================================================================================================================================================================*/
 /*   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE */
@@ -36,6 +36,34 @@ a:visited{
 }
 
 
+
+
+.main{
+    height: 500px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     bottom: 0;
     width: 100%;
@@ -44,7 +72,7 @@ footer{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-    font-family: 'Montserrat',sans-serif;
+    font-family:'Rajdhani';
 
 }
 
@@ -79,7 +107,7 @@ footer{
 }
 
 .section2{
-    padding: 2% 2%;
+    padding: 5% 0 5% 0;
     width: 50%;
     display: flex;
     color: white;
@@ -97,13 +125,18 @@ footer{
 }
 
 .section3{
-    padding: 2% 2%;
+    padding:7% 0 7% 0;
     color: white;
-    display: flex;
-    width: 40%;
+    width: 45%;
 }
 
-
+.section4{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 5% 0 5%;
+    color: white;
+    font-size: 12px;
+}
 @media (max-width: 720px) {
     .section1{
       display: block;
@@ -143,7 +176,7 @@ footer{
 
     .section3{
         width: 50%;
-        padding: 5% 0 5% 0;
+        padding: 7% 0 7% 0;
     }
 
 }
