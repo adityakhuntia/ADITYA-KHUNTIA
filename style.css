@@ -13,7 +13,7 @@
 html,body{
     width: 100%;
     height:100%;
-    overflow-x :hidden; 
+    overflow-x :hidden;
 }
 
 
@@ -21,6 +21,13 @@ html,body{
 /* ===========================================================================================================================================================================*/
 /*   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE   BOILER PLATE */ 
 /* ===========================================================================================================================================================================*/
+
+
+
+
+
+
+
 hr{
     border: 0.1px solid white;
 }
@@ -32,6 +39,14 @@ a:visited{
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
 
 
 /* ===========================================================================================================================================================================*/
@@ -51,8 +66,15 @@ a:visited{
 }
 
 .header_button{
+    padding: 1% 0 0% 1%;
+    font-size: 20px;
     width: 5%;
     color: black;
+}
+
+.header_button:hover{
+    cursor: pointer;
+    color: rgb(49, 49, 193);
 }
 
 
@@ -86,6 +108,9 @@ a:visited{
 
 .header_search{
     width: 20%;
+
+    padding: 1% 0 0 0;
+    font-size: 24px;
 }
 
 
@@ -112,6 +137,79 @@ a:visited{
 /* ===========================================================================================================================================================================*/
 /*   HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER    HEADER */ 
 /* ===========================================================================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================================================================================================================================================================*/
+/*   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR */ 
+/* ===========================================================================================================================================================================*/
+
+.sidenavbar{
+    position: absolute;
+    height:91%;
+    width: 20%;
+    background-color: red;
+    
+    
+}
+
+.sidenavbar_sec1{
+    height: 25%;
+    background-color: black;
+}
+
+.sidenavbar_sec2{
+    height: 25%;
+    background-color: blue;
+    
+}
+
+.sidenavbar_sec3{
+    height: 15%;
+    background-color: green;
+    
+}
+
+.sidenavbar_sec4{
+    height: 15%;
+    background-color: aqua;
+}
+
+.sidenavbar_sec5{
+    height: 20%;
+    background-color: brown;
+}
+
+
+@media (max-width: 720px) {
+    .sidenavbar{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sidenavbar_sec1{height:20%;}
+    .sidenavbar_sec2{height:20%;}
+    .sidenavbar_sec3{height:20%;}
+    .sidenavbar_sec4{height:20%;}
+    .sidenavbar_sec5{height:20%;}
+}
+/* ===========================================================================================================================================================================*/
+/*   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR   SIDENAVBAR */ 
+/* ===========================================================================================================================================================================*/
+
+
+
+
+
+
 
 
 
