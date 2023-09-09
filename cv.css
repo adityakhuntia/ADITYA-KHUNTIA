@@ -1,0 +1,19 @@
+.main{
+    background-color: black;
+    height: max-content;
+}
+
+
+.main iframe{
+    width: 60%;
+    height: 900px;
+    border: none;
+    margin: auto;
+
+}
+
+@media (max-width: 720px) {
+    .main iframe{
+        width: 100%;
+    }
+}
